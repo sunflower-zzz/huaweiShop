@@ -1,0 +1,65 @@
+.header{
+    height: 140px;
+}
+.site-topbar{
+    position: relative;
+    height: 40px;
+    background-color: #333333;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.site-topbar a{
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+.site-topbar a:hover{
+    color: #fff;
+}
+/* 去掉下划线 */
+a,a:hover{
+    text-decoration: none
+}
+.container{
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topbar-nav{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.sep{
+    margin: 0px 3.6px;
+    width: 3px;
+    height: 16px;
+    color: #424242;
+}
+.site-header{
+    width: 100%;
+    height: 100px;
+}
+.topbar-info{
+    /* 浮动在最右边 */
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.topbar-cart{
+    float: right;
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+}
+.topbar-cart span:hover{
+    color: #ff6700;
+}
+.topbar-cart-img{
+    width: 20px;
+    height: 20px;
+    /* 移动图标的上下位置 */
+    vertical-align: -6px;
+}
